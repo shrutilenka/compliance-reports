@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+*{
+    font-family: 'Roboto', sans-serif;
+}
+th{
+    font-weight: 500;
+}
+td{
+    font-weight: 400;
+}
+table,tr,td,th {
+    border: 1px solid #ccc;
+    border-collapse: collapse;
+    text-align:center; 
+    padding: 10px 5px;
+}
+tr.no-border-right td {
+    border-right-style: hidden;
+  }
+  td.no-bottom  {
+    border-bottom-style: hidden;
+  }
+tr.no-border-bottom td {
+border-bottom-style: hidden;
+}
+tr.no-border-top td {
+border-top-style: hidden;
+}
+
+
+/* i added */
+.flex-row{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    justify-content: space-between;
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+*{
+    text-align: left;
+}
+
+/* ka form 5a */
+
+.caption-txt{
+    width: 100%;
+}
+
+table{
+    width: 100%;
+}
+.ka-title{
+    text-align: center;
+    border: 1px solid #ccc; 
+    width: 5%;
+    justify-items: center;
+    margin: auto;
+}
+
+/* form5 ka */
+
+
+.flex{
+    display: flex;
+    flex-direction: column;
+}
