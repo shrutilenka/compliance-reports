@@ -69,3 +69,16 @@ table{
     display: flex;
     flex-direction: column;
 }
+
+
+/* form a - labour welfare fund */
+
+.wrapper{
+    padding: 0px;
+}
+
+.sub-wrapper{
+    float: left;
+    width: 50%;
+    
+}
